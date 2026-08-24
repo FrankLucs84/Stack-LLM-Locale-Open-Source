@@ -1,0 +1,93 @@
+# =========================================================
+#  Stack LLM Locale — .gitignore
+#  Evita di versionare: segreti, modelli, cache, artefatti
+# =========================================================
+
+# ---- SEGRETI E CHIAVI (CRITICO — mai committare) ----
+.env
+.env.*
+!.env.example
+secrets.json
+*.key
+*.pem
+*.token
+config.local.toml
+ov.conf
+
+# ---- MODELLI E PESI (troppo grandi per Git) ----
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+*.onnx
+models/
+ollama_models/
+
+# ---- VECTOR DB E STORAGE RAG ----
+storage/
+lancedb/
+*.lance
+anythingllm_storage/
+vector_cache/
+*.sqlite
+*.db
+coworker.db
+
+# ---- SKILL GENERATE DA CONTENUTI PROTETTI ----
+# (tieni private le skill derivate da libri con copyright)
+skills/private/
+*.skill.private/
+
+# ---- PYTHON ----
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ---- NODE / JS ----
+node_modules/
+npm-debug.log*
+yarn-error.log*
+dist/
+build/
+.turbo/
+
+# ---- RUST (OpenWorker shell) ----
+target/
+Cargo.lock
+
+# ---- LOG E TEMP ----
+*.log
+logs/
+tmp/
+temp/
+*.tmp
+*.bak
+*.swp
+
+# ---- OS ----
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ---- IDE ----
+.vscode/
+.idea/
+*.sublime-*
+
+# ---- DOCKER ----
+.docker/
+docker-compose.override.yml
+
+# ---- DOCUMENTI PERSONALI / DATI SENSIBILI ----
+# (deliverable reali, dossier, dati aziendali — non versionare)
+data/private/
+uploads/
+input_docs/
+*.confidential.*
