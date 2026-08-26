@@ -35,6 +35,15 @@ e il progetto adotta il [Versioning Semantico](https://semver.org/lang/it/).
 - Aggiunta teoria loop agentico, tool calling e permessi
 - Aggiunta sezione autovalutazione per ogni tappa
 
+### Manuale didattico e appendice
+- Manuale «LLM in Locale» (8 capitoli, stile universitario): libro di testo da neofita con definizioni formali, esempi ed esercizi
+- Appendice «Tecniche di Frontiera» consolidata in documento unico (16 pagine, con indice e diagramma originale):
+  - A: memoria a lungo termine (Reflective Memory Management)
+  - B: ragionamento a grafo (GraphRAG)
+  - C: imbracatura di affidabilità (Harness Engineering), con diagramma originale del flusso, osservabilità e ciclo di feedback
+  - D: adattamento del modello (fine-tuning, LoRA, QLoRA; RAG vs fine-tuning)
+- Diagramma originale `harness_diagram` (SVG + PNG) come asset riutilizzabile
+
 ### Note
 - OpenViking escluso di proposito dallo stack locale (richiede chiavi cloud).
 - Tutti i componenti core sono MIT; estensioni AGPL segnalate.

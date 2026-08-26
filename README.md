@@ -382,8 +382,12 @@ Il RAG vettoriale è il punto di partenza, ma non l'unico metodo. In produzione 
 ├── .gitignore                             # Esclusioni (modelli, chiavi, DB…)
 ├── .env.example                           # Template variabili (copia in .env)
 └── docs/
-    ├── Percorso_Studio_Stack_LLM_Locale.docx   # Roadmap di studio a livelli
-    └── Guida_Installazione_Stack_LLM.docx      # Guida operativa dettagliata
+    ├── Manuale_LLM_Locale.docx                  # Libro di testo completo (da neofita)
+    ├── Appendice_Tecniche_Frontiera.docx        # RMM, GraphRAG, Harness, LoRA/QLoRA (avanzato)
+    ├── harness_diagram.svg                       # Diagramma originale del flusso di affidabilità
+    ├── harness_diagram.png                       # (versione raster)
+    ├── Percorso_Studio_Stack_LLM_Locale.docx    # Complemento teorico sintetico
+    └── Guida_Installazione_Stack_LLM.docx       # Guida operativa
 ```
 
 > ⚠️ **Prima del primo commit:** copia `.env.example` in `.env` e compila i valori. Il `.env` reale è già escluso dal versionamento.
@@ -392,7 +396,10 @@ Il RAG vettoriale è il punto di partenza, ma non l'unico metodo. In produzione 
 
 | Documento | Contenuto |
 |---|---|
-| **Percorso di Studio** *(docx)* | Complemento teorico della guida: il «perché» dietro ogni fase — inferenza, quantizzazione, embeddings, pipeline RAG, loop agentico, context engineering. Con autovalutazione. |
+| **Manuale «LLM in Locale»** *(docx)* | Libro di testo completo (8 capitoli): fondamenti, embeddings, RAG, agenti, context engineering, con definizioni formali, esempi ed esercizi. Da neofita. |
+| **Appendice — Tecniche di Frontiera** *(docx)* | Documento avanzato unico (16 pag) con indice e diagramma originale: memoria a lungo termine (RMM), ragionamento a grafo (GraphRAG), imbracatura di affidabilità (Harness Engineering) e adattamento del modello (fine-tuning, LoRA, QLoRA). Con criteri di adozione. |
+| **harness_diagram** *(svg/png)* | Diagramma originale del flusso di affidabilità attorno all'LLM (asset riutilizzabile). |
+| **Percorso di Studio** *(docx)* | Complemento teorico sintetico della guida: il «perché» dietro ogni fase. |
 | **Guida di Installazione** *(docx)* | Guida operativa passo-passo tarata su RTX 4060 8GB: il «come fare». |
 
 ---

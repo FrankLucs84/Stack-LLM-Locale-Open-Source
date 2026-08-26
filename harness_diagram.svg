@@ -1,0 +1,128 @@
+<svg width="1100" height="1240" viewBox="0 0 1100 1240" xmlns="http://www.w3.org/2000/svg" font-family="Calibri, Arial, sans-serif">
+  <defs>
+    <marker id="arr" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#1F3A5F"/>
+    </marker>
+    <marker id="arrO" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#B5651D"/>
+    </marker>
+    <marker id="arrG" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L8,3 L0,6 Z" fill="#2E7D32"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <rect x="0" y="0" width="1100" height="72" fill="#1F3A5F"/>
+  <rect x="0" y="0" width="10" height="72" fill="#2E6E9E"/>
+  <text x="34" y="46" font-size="30" font-weight="bold" fill="#FFFFFF">L'imbracatura di affidabilità</text>
+  <text x="1066" y="44" font-size="17" fill="#AEC4DA" text-anchor="end">Harness Engineering — flusso</text>
+
+  <!-- User Goal -->
+  <rect x="420" y="100" width="260" height="60" rx="12" fill="#FFFFFF" stroke="#1F3A5F" stroke-width="2"/>
+  <text x="550" y="137" font-size="20" font-weight="bold" fill="#1A2332" text-anchor="middle">Obiettivo utente</text>
+  <line x1="550" y1="160" x2="550" y2="196" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="565" y="182" font-size="14" fill="#5A6270" font-style="italic">intento</text>
+
+  <!-- Harness container -->
+  <rect x="40" y="200" width="1020" height="810" rx="16" fill="#F3F7FB" stroke="#AEC4DA" stroke-width="1.5"/>
+  <rect x="60" y="214" width="180" height="34" rx="8" fill="#1F3A5F"/>
+  <text x="150" y="237" font-size="15" font-weight="bold" fill="#FFFFFF" text-anchor="middle" letter-spacing="1">L'IMBRACATURA</text>
+
+  <!-- 1 Context Builder -->
+  <rect x="360" y="270" width="380" height="110" rx="12" fill="#E6F0FA" stroke="#1565C0" stroke-width="2"/>
+  <circle cx="384" cy="294" r="15" fill="#1A2332"/><text x="384" y="300" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">1</text>
+  <text x="550" y="300" font-size="19" font-weight="bold" fill="#1A2332" text-anchor="middle">Context Builder</text>
+  <text x="550" y="322" font-size="13" fill="#5A6270" text-anchor="middle">fatti vivi + stato + storia</text>
+  <text x="435" y="358" font-size="13" fill="#1565C0" text-anchor="middle">Documenti</text>
+  <text x="550" y="358" font-size="13" fill="#1565C0" text-anchor="middle">Dati</text>
+  <text x="650" y="358" font-size="13" fill="#1565C0" text-anchor="middle">Cronologia</text>
+  <line x1="550" y1="380" x2="550" y2="416" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="565" y="402" font-size="13" fill="#5A6270" font-style="italic">input ancorato</text>
+
+  <!-- 2 LLM -->
+  <ellipse cx="550" cy="470" rx="150" ry="48" fill="#EDE7F6" stroke="#6A1B9A" stroke-width="2"/>
+  <circle cx="410" cy="452" r="15" fill="#1A2332"/><text x="410" y="458" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">2</text>
+  <text x="550" y="466" font-size="20" font-weight="bold" fill="#1A2332" text-anchor="middle">LLM</text>
+  <text x="550" y="490" font-size="13" fill="#5A6270" text-anchor="middle">ragionamento</text>
+  <line x1="550" y1="518" x2="550" y2="556" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="565" y="542" font-size="13" fill="#5A6270" font-style="italic">azione proposta</text>
+
+  <!-- 3 Policy Gate (diamond) -->
+  <polygon points="550,560 660,620 550,680 440,620" fill="#FBF0D9" stroke="#B5651D" stroke-width="2"/>
+  <circle cx="452" cy="590" r="15" fill="#1A2332"/><text x="452" y="596" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">3</text>
+  <text x="550" y="616" font-size="17" font-weight="bold" fill="#1A2332" text-anchor="middle">Policy Gate</text>
+  <text x="550" y="636" font-size="12" fill="#5A6270" text-anchor="middle">consenti / blocca</text>
+  <line x1="550" y1="680" x2="550" y2="716" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="565" y="702" font-size="13" fill="#5A6270" font-style="italic">approvato</text>
+
+  <!-- 4 Tools/Runtime -->
+  <rect x="360" y="720" width="380" height="100" rx="12" fill="#FBEAE1" stroke="#C1440E" stroke-width="2"/>
+  <circle cx="384" cy="744" r="15" fill="#1A2332"/><text x="384" y="750" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">4</text>
+  <text x="550" y="750" font-size="19" font-weight="bold" fill="#1A2332" text-anchor="middle">Tools / Runtime</text>
+  <text x="550" y="772" font-size="13" fill="#5A6270" text-anchor="middle">esecuzione guidata</text>
+  <text x="440" y="802" font-size="13" fill="#C1440E" text-anchor="middle">CRM</text>
+  <text x="550" y="802" font-size="13" fill="#C1440E" text-anchor="middle">API</text>
+  <text x="655" y="802" font-size="13" fill="#C1440E" text-anchor="middle">MCP</text>
+  <line x1="550" y1="820" x2="550" y2="856" stroke="#1F3A5F" stroke-width="2.5" marker-end="url(#arr)"/>
+  <text x="565" y="842" font-size="13" fill="#5A6270" font-style="italic">risultato</text>
+
+  <!-- 5 Verify -->
+  <rect x="360" y="860" width="380" height="90" rx="12" fill="#FBE3E3" stroke="#C62828" stroke-width="2"/>
+  <circle cx="384" cy="884" r="15" fill="#1A2332"/><text x="384" y="890" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">5</text>
+  <text x="550" y="892" font-size="19" font-weight="bold" fill="#1A2332" text-anchor="middle">Verify</text>
+  <text x="550" y="914" font-size="13" fill="#5A6270" text-anchor="middle">test + validazione</text>
+
+  <!-- tool result loop (left, black) -->
+  <path d="M 360 770 L 250 770 L 250 470 L 400 470" fill="none" stroke="#1A2332" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="256" y="455" font-size="12" fill="#1A2332">risultato tool</text>
+
+  <!-- feedback loop (orange dashed, far left) -->
+  <path d="M 360 905 L 150 905 L 150 325 L 356 325" fill="none" stroke="#B5651D" stroke-width="2" stroke-dasharray="7,5" marker-end="url(#arrO)"/>
+  <text x="120" y="620" font-size="13" fill="#B5651D" font-weight="bold" transform="rotate(-90 120 620)">segnali di feedback</text>
+
+  <!-- Observability (right) -->
+  <rect x="800" y="430" width="230" height="130" rx="12" fill="#E8EDF2" stroke="#5A6270" stroke-width="2"/>
+  <text x="915" y="462" font-size="17" font-weight="bold" fill="#1A2332" text-anchor="middle">Observability</text>
+  <text x="915" y="484" font-size="12" fill="#5A6270" text-anchor="middle">tracce + metriche + errori</text>
+  <text x="915" y="536" font-size="12.5" fill="#5A6270" text-anchor="middle" font-style="italic">osserva ogni stadio</text>
+  <!-- dashed connectors from observability -->
+  <path d="M 800 480 L 700 350" fill="none" stroke="#9AA4B0" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <path d="M 800 500 L 700 470" fill="none" stroke="#9AA4B0" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <path d="M 800 525 L 660 620" fill="none" stroke="#9AA4B0" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <path d="M 810 555 L 740 890" fill="none" stroke="#9AA4B0" stroke-width="1.5" stroke-dasharray="5,4"/>
+
+  <!-- Constraints (right lower) -->
+  <rect x="800" y="640" width="230" height="120" rx="12" fill="#FBF0D9" stroke="#B5651D" stroke-width="2"/>
+  <text x="915" y="672" font-size="17" font-weight="bold" fill="#1A2332" text-anchor="middle">Constraints</text>
+  <text x="915" y="694" font-size="12" fill="#5A6270" text-anchor="middle">regole + permessi</text>
+  <text x="915" y="726" font-size="15" text-anchor="middle" fill="#1A2332">consentito / negato / protetto</text>
+  <!-- enforce to gate -->
+  <path d="M 800 675 L 665 630" fill="none" stroke="#B5651D" stroke-width="2" stroke-dasharray="7,5" marker-end="url(#arrO)"/>
+  <text x="700" y="660" font-size="12" fill="#B5651D" font-weight="bold">applica</text>
+  <!-- limit to tools -->
+  <path d="M 800 720 L 745 775" fill="none" stroke="#B5651D" stroke-width="2" stroke-dasharray="7,5" marker-end="url(#arrO)"/>
+  <text x="758" y="740" font-size="12" fill="#B5651D" font-weight="bold">limita</text>
+
+  <!-- accepted arrow out -->
+  <line x1="550" y1="950" x2="550" y2="1006" stroke="#2E7D32" stroke-width="3" marker-end="url(#arrG)"/>
+  <text x="566" y="984" font-size="13" fill="#2E7D32" font-weight="bold" font-style="italic">accettato</text>
+
+  <!-- 6 Accepted Result -->
+  <rect x="380" y="1010" width="340" height="70" rx="12" fill="#E3F2E4" stroke="#2E7D32" stroke-width="2"/>
+  <circle cx="404" cy="1034" r="15" fill="#1A2332"/><text x="404" y="1040" font-size="16" font-weight="bold" fill="#FFFFFF" text-anchor="middle">6</text>
+  <text x="550" y="1042" font-size="19" font-weight="bold" fill="#1A2332" text-anchor="middle">Risultato accettato</text>
+  <text x="550" y="1064" font-size="13" fill="#5A6270" text-anchor="middle">limitato + verificato</text>
+
+  <!-- legend -->
+  <text x="60" y="1120" font-size="14" font-weight="bold" fill="#1A2332">Legenda</text>
+  <line x1="60" y1="1140" x2="100" y2="1140" stroke="#1A2332" stroke-width="2" marker-end="url(#arr)"/>
+  <text x="110" y="1145" font-size="13" fill="#5A6270">flusso principale</text>
+  <line x1="290" y1="1140" x2="330" y2="1140" stroke="#1A2332" stroke-width="2"/>
+  <text x="340" y="1145" font-size="13" fill="#5A6270">risultato tool (ritorno al modello)</text>
+  <line x1="640" y1="1140" x2="680" y2="1140" stroke="#B5651D" stroke-width="2" stroke-dasharray="7,5"/>
+  <text x="690" y="1145" font-size="13" fill="#5A6270">feedback / vincoli</text>
+  <line x1="880" y1="1140" x2="920" y2="1140" stroke="#9AA4B0" stroke-width="1.5" stroke-dasharray="5,4"/>
+  <text x="930" y="1145" font-size="13" fill="#5A6270">osservazione</text>
+
+  <text x="550" y="1200" font-size="12" fill="#9AA4B0" text-anchor="middle" font-style="italic">Diagramma originale — schema concettuale del flusso di affidabilità attorno a un LLM</text>
+</svg>
