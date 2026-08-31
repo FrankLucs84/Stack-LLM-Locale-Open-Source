@@ -385,10 +385,15 @@ Il RAG vettoriale è il punto di partenza, ma non l'unico metodo. In produzione 
     ├── Manuale_LLM_Locale.docx                  # Libro di testo completo (da neofita)
     ├── Appendice_Tecniche_Frontiera.docx        # RMM, GraphRAG, Harness, LoRA/QLoRA (avanzato)
     ├── Pattern_LLM_Wiki_Operativo.docx          # Pattern LLM Wiki Ingest/Query/Lint (local-first)
+    ├── Guida_Agent_Loop_Multi_Agente.docx       # Loop dell'agente (3 livelli) + sistemi multi-agente
     ├── harness_diagram.svg                       # Diagramma originale del flusso di affidabilità
     ├── harness_diagram.png                       # (versione raster)
     ├── llmwiki_diagram.svg                       # Diagramma originale del ciclo LLM Wiki
     ├── llmwiki_diagram.png                       # (versione raster)
+    ├── loop_levels_diagram.svg                   # Diagramma originale dei 3 livelli del loop
+    ├── loop_levels_diagram.png                   # (versione raster)
+    ├── mas_diagram.svg                           # Diagramma originale dei sistemi multi-agente
+    ├── mas_diagram.png                           # (versione raster)
     ├── Percorso_Studio_Stack_LLM_Locale.docx    # Complemento teorico sintetico
     └── Guida_Installazione_Stack_LLM.docx       # Guida operativa
 ```
@@ -402,6 +407,7 @@ Il RAG vettoriale è il punto di partenza, ma non l'unico metodo. In produzione 
 | **Manuale «LLM in Locale»** *(docx)* | Libro di testo completo (8 capitoli): fondamenti, embeddings, RAG, agenti, context engineering, con definizioni formali, esempi ed esercizi. Da neofita. |
 | **Appendice — Tecniche di Frontiera** *(docx)* | Documento avanzato unico (16 pag) con indice e diagramma originale: memoria a lungo termine (RMM), ragionamento a grafo (GraphRAG), imbracatura di affidabilità (Harness Engineering) e adattamento del modello (fine-tuning, LoRA, QLoRA). Con criteri di adozione. |
 | **Pattern LLM Wiki operativo** *(docx)* | Scheda pratica (7 pag): il pattern LLM Wiki di Karpathy (Ingest/Query/Lint) adattato local-first, con schema `AGENTS.md` pronto all'uso, struttura file e comandi. Con diagramma originale. |
+| **Il loop dell'agente e i sistemi multi-agente** *(docx)* | Guida estesa (17 pag) in due parti: i tre livelli di maturità del loop di un singolo agente, e l'architettura dei sistemi multi-agente (strati, coordinamento, affidabilità, governance). Con due diagrammi originali. |
 | **harness_diagram** *(svg/png)* | Diagramma originale del flusso di affidabilità attorno all'LLM (asset riutilizzabile). |
 | **Percorso di Studio** *(docx)* | Complemento teorico sintetico della guida: il «perché» dietro ogni fase. |
 | **Guida di Installazione** *(docx)* | Guida operativa passo-passo tarata su RTX 4060 8GB: il «come fare». |

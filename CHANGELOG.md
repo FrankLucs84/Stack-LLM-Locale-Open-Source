@@ -43,6 +43,8 @@ e il progetto adotta il [Versioning Semantico](https://semver.org/lang/it/).
   - C: imbracatura di affidabilità (Harness Engineering), con diagramma originale del flusso, osservabilità e ciclo di feedback
   - D: adattamento del modello (fine-tuning, LoRA, QLoRA; RAG vs fine-tuning)
 - Diagramma originale `harness_diagram` (SVG + PNG) come asset riutilizzabile
+- Scheda «Pattern LLM Wiki operativo» (7 pagine): il pattern di Karpathy (Ingest/Query/Lint) adattato local-first, con schema `AGENTS.md` pronto all'uso, struttura file, comandi e diagramma originale `llmwiki_diagram` (SVG + PNG)
+- Guida «Il loop dell'agente e i sistemi multi-agente» (17 pagine, 2 parti): i tre livelli di maturità del loop di un singolo agente (Parte I) e l'architettura dei sistemi multi-agente — strati, coordinamento, affidabilità, governance (Parte II). Con diagrammi originali `loop_levels_diagram` e `mas_diagram` (SVG + PNG). Concetti rielaborati e depurati dai riferimenti commerciali delle fonti.
 
 ### Note
 - OpenViking escluso di proposito dallo stack locale (richiede chiavi cloud).
